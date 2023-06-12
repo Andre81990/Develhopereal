@@ -33,9 +33,9 @@ String libro="nuovo java di cesari";
     private static void exercise2() {
         System.out.println("\nExercise 2:");
         // Change these
-        String firstName = "(your first name)";
-        String middleName = "(your middle name/any middle name)";
-        String lastName = "(your last name)";
+        String firstName = "Andrea";
+        String middleName = "tia";
+        String lastName = "ottolino";
 
         System.out.println(firstName.toUpperCase() + " " + middleName.toUpperCase() + " " + lastName.toLowerCase()); // <--- Edit this line
     }
@@ -61,8 +61,14 @@ String libro="nuovo java di cesari";
     private static void exercise3() {
         System.out.println("\nExercise 3:");
 
-        String textFrom2Primitives = ""; // <--- Edit this line
+        String textFrom2Primitives = String.valueOf('c');
+        String textFrom2Primitivess= String.valueOf(4.5f);
+        String textFrom2Primitivesss= String.valueOf(true);
+
+        // <--- Edit this line
         System.out.println(textFrom2Primitives);
+        System.out.println(textFrom2Primitivess);
+        System.out.println(textFrom2Primitivesss);
     }
 
 
@@ -79,7 +85,7 @@ String libro="nuovo java di cesari";
         String middleNumbers = "       4 5 6";
         String earlyNumbers = "1 2 3";
 
-        System.out.println(); // <--- Write your code here
+        System.out.println(earlyNumbers.trim()+" "+middleNumbers.trim()+" "+endNumbers.trim()); // <--- Write your code here
     }
 
 }
