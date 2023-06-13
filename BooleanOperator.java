@@ -16,8 +16,27 @@ public class BooleanOperator {
         boolean t=true;
         boolean f=false;
         if (2 <= 2 && !true)
-            System.out.println("");
+            System.out.println(f);
         else
-            System.out.println("");
+            System.out.println(t);
+
+
+        if (!false && 3 > 2)
+            System.out.println(t);
+        else
+            System.out.println(f);
+
+
+        if (!(!t || f))
+            System.out.println(t);
+        else
+            System.out.println(f);
+
+
+        if (6 > 6 ^ !(true && true))
+            System.out.println(t);
+        else
+            System.out.println(f);
+
     }
 }
