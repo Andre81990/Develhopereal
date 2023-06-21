@@ -1,16 +1,29 @@
-package co.develhope.introduction.javadoc;
+package co.develhope.introduction.co.develhope.introduction;
 
-
-
-// classe di test usata per la verifica dei metodi creati nella classe e per la creazione di new objects
 public class Tester {
 
     public static void main(String[] args) {
 
 
-        WordGames wg=new WordGames();
-       System.out.println(wg.addHelloWord("mondo"));
+        Employee em = new Employee("andrea","ottolino","via borgomanero ");
+        Employee em2 = new Employee("elio","barbone", "via gaidano 8");
 
-       System.out.println(wg.getFullName("andrea","otto"));
+        Badge b1=new Badge(em);
+        Badge b2=new Badge(em2);
+
+      //  System.out.println(em);
+        //System.out.println(em2);
+
+
+
+        b1.showBadgeDetails();
+        b2.showBadgeDetails();
+
     }
+
+    /*
+    * creare il loro nuovo 2Badge
+mostrare all'utente i dati del tesserino dei 2 dipendenti
+    *
+    * */
 }
