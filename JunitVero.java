@@ -1,4 +1,4 @@
-package AdvancedJava;
+package Junit;
 
 
 
